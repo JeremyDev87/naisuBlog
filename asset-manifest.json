@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/naisuBlog/static/css/main.7b8d4251.chunk.css",
+    "main.js": "/naisuBlog/static/js/main.fff8b977.chunk.js",
+    "main.js.map": "/naisuBlog/static/js/main.fff8b977.chunk.js.map",
+    "runtime-main.js": "/naisuBlog/static/js/runtime-main.f3aa304a.js",
+    "runtime-main.js.map": "/naisuBlog/static/js/runtime-main.f3aa304a.js.map",
+    "static/js/2.e1879227.chunk.js": "/naisuBlog/static/js/2.e1879227.chunk.js",
+    "static/js/2.e1879227.chunk.js.map": "/naisuBlog/static/js/2.e1879227.chunk.js.map",
+    "static/js/3.da7c6e35.chunk.js": "/naisuBlog/static/js/3.da7c6e35.chunk.js",
+    "static/js/3.da7c6e35.chunk.js.map": "/naisuBlog/static/js/3.da7c6e35.chunk.js.map",
+    "index.html": "/naisuBlog/index.html",
+    "static/css/main.7b8d4251.chunk.css.map": "/naisuBlog/static/css/main.7b8d4251.chunk.css.map",
+    "static/js/2.e1879227.chunk.js.LICENSE.txt": "/naisuBlog/static/js/2.e1879227.chunk.js.LICENSE.txt",
+    "static/media/main0.c88d91aa.jpeg": "/naisuBlog/static/media/main0.c88d91aa.jpeg",
+    "static/media/main1.2da5f93a.jpeg": "/naisuBlog/static/media/main1.2da5f93a.jpeg",
+    "static/media/main2.2f9bd34c.jpeg": "/naisuBlog/static/media/main2.2f9bd34c.jpeg",
+    "static/media/main3.d6f99b4a.jpeg": "/naisuBlog/static/media/main3.d6f99b4a.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3aa304a.js",
+    "static/js/2.e1879227.chunk.js",
+    "static/css/main.7b8d4251.chunk.css",
+    "static/js/main.fff8b977.chunk.js"
+  ]
+}
