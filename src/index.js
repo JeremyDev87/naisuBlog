@@ -1,12 +1,41 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
 import './index.css';
 import App from './App';
+import TopBar from './static/parts/nav.js';
 import reportWebVitals from './reportWebVitals';
+import Footer from './static/parts/footer.js';
+import IntroDiv from './intro';
+import PortfolioDiv from './portfolio';
+import NaisuTVDiv from './naisuTV';
+import NanumiCrewDiv from './nanumicrew';
+import BlogDiv from './blog';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <TopBar />
+      <Route exact path="/">
+        <App />
+      </Route>
+      <Route exact path="/intro">
+        <IntroDiv/>
+      </Route>
+      <Route exact path="/portfolio">
+        <PortfolioDiv/>
+      </Route>
+      <Route exact path="/naisuTV">
+        <NaisuTVDiv/>
+      </Route>
+      <Route exact path="/nanumicrew">
+        <NanumiCrewDiv/>
+      </Route>
+      <Route exact path="/blog">
+        <BlogDiv/>
+      </Route>
+      <Footer />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
