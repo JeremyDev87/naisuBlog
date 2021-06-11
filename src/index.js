@@ -19,6 +19,9 @@ ReactDOM.render(
       <Route exact path="/">
         <App />
       </Route>
+      <Route exact path="/naisuBlog">
+        <App />
+      </Route>
       <Route exact path="/intro">
         <IntroDiv/>
       </Route>
