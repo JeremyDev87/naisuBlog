@@ -81,17 +81,6 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="flex-col mt-5">
-          <span className="font-bold text-3xl text-gray-400 hover:text-gray-800">Contact Me</span>
-          <div className="flex justify-between mt-4 items-center h-full text-sm font-light">
-          <p className="mx-3 px-5 border-r w-1/2 h-full border-gray-200 text-gray-600 hover:text-black">
-            <a href="mailto:soundbrokaz@kakao.com"><i class="fas fa-envelope mr-2"></i>soundbrokaz@kakao.com</a>
-          </p>
-          <p className="mx-3 p-5 w-1/2 text-gray-600 hover:text-black">
-          <a href="https://www.google.com/maps/place/%EC%8B%A0%EB%8F%84%EB%A6%BC%EC%97%AD/"><i className="fas fa-map-marked-alt mr-2"></i>서울특별시 영등포구</a>
-          </p>
-          </div>
-        </div>
       </div>
     </div>
   );

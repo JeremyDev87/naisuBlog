@@ -10,6 +10,10 @@ import IntroDiv from './intro';
 import PortfolioDiv from './portfolio';
 import NaisuTVDiv from './naisuTV';
 import NanumiCrewDiv from './nanumicrew';
+import NanumiSimpleDiv from './nanumiParts/nanumiSimple';
+import NanumiJoin from './nanumiParts/join';
+import NanumiNanum from './nanumiParts/nanum';
+import NanumiQna from './nanumiParts/qna';
 import BlogDiv from './blog';
 
 ReactDOM.render(
@@ -33,6 +37,18 @@ ReactDOM.render(
       </Route>
       <Route exact path="/nanumicrew">
         <NanumiCrewDiv/>
+      </Route>
+      <Route exact path="/nanumicrew/join">
+        <NanumiSimpleDiv/>
+        <NanumiJoin/>
+      </Route>
+      <Route exact path="/nanumicrew/nanum">
+        <NanumiSimpleDiv/>
+        <NanumiNanum/>
+      </Route>
+      <Route exact path="/nanumicrew/qna">
+        <NanumiSimpleDiv/>
+        <NanumiQna/>
       </Route>
       <Route exact path="/blog">
         <BlogDiv/>

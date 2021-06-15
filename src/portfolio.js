@@ -1,7 +1,24 @@
 const PortfolioDiv = () => {
     return (
-        <div className="bg-red-100 pt-28 h-72 text-center">
-            <span>Portfolio 준비중입니다.</span>
+        <div className="bg-red-100 h-full static container mx-auto">
+            <div className="w-full md:pt-40 pt-20 flex-col">
+                <div className="flex">
+                    <div className="w-1/3">asdf</div>
+                    <div className="w-1/3">asdf</div>
+                    <div className="w-1/3">asdf</div>
+                </div>
+                <div className="flex">
+                    <div className="w-1/3">asdf</div>
+                    <div className="w-1/3">asdf</div>
+                    <div className="w-1/3">asdf</div>
+                </div>
+                <div className="flex">
+                    <div className="w-1/3">asdf</div>
+                    <div className="w-1/3">asdf</div>
+                    <div className="w-1/3">asdf</div>
+                </div>
+            </div>
+            
         </div> 
     )
 }
