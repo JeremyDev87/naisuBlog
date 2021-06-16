@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/naisuBlog/static/css/main.49317839.chunk.css",
-    "main.js": "/naisuBlog/static/js/main.6eea56d8.chunk.js",
-    "main.js.map": "/naisuBlog/static/js/main.6eea56d8.chunk.js.map",
+    "main.js": "/naisuBlog/static/js/main.1ac1f6d4.chunk.js",
+    "main.js.map": "/naisuBlog/static/js/main.1ac1f6d4.chunk.js.map",
     "runtime-main.js": "/naisuBlog/static/js/runtime-main.8e09a27d.js",
     "runtime-main.js.map": "/naisuBlog/static/js/runtime-main.8e09a27d.js.map",
-    "static/js/2.e212ecd1.chunk.js": "/naisuBlog/static/js/2.e212ecd1.chunk.js",
-    "static/js/2.e212ecd1.chunk.js.map": "/naisuBlog/static/js/2.e212ecd1.chunk.js.map",
+    "static/js/2.53899ddf.chunk.js": "/naisuBlog/static/js/2.53899ddf.chunk.js",
+    "static/js/2.53899ddf.chunk.js.map": "/naisuBlog/static/js/2.53899ddf.chunk.js.map",
     "static/js/3.2ceeaab5.chunk.js": "/naisuBlog/static/js/3.2ceeaab5.chunk.js",
     "static/js/3.2ceeaab5.chunk.js.map": "/naisuBlog/static/js/3.2ceeaab5.chunk.js.map",
     "index.html": "/naisuBlog/index.html",
     "static/css/main.49317839.chunk.css.map": "/naisuBlog/static/css/main.49317839.chunk.css.map",
-    "static/js/2.e212ecd1.chunk.js.LICENSE.txt": "/naisuBlog/static/js/2.e212ecd1.chunk.js.LICENSE.txt",
+    "static/js/2.53899ddf.chunk.js.LICENSE.txt": "/naisuBlog/static/js/2.53899ddf.chunk.js.LICENSE.txt",
     "static/media/main0.c88d91aa.jpeg": "/naisuBlog/static/media/main0.c88d91aa.jpeg",
     "static/media/main1.2da5f93a.jpeg": "/naisuBlog/static/media/main1.2da5f93a.jpeg",
     "static/media/main2.2f9bd34c.jpeg": "/naisuBlog/static/media/main2.2f9bd34c.jpeg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8e09a27d.js",
-    "static/js/2.e212ecd1.chunk.js",
+    "static/js/2.53899ddf.chunk.js",
     "static/css/main.49317839.chunk.css",
-    "static/js/main.6eea56d8.chunk.js"
+    "static/js/main.1ac1f6d4.chunk.js"
   ]
 }
