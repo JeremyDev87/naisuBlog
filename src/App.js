@@ -1,59 +1,8 @@
-import React, {useState} from 'react';
-import { Link, Route, Switch } from 'react-router-dom';
+import React from 'react';
 import './static/css/styles.css'
-import './App.css';
-import Data from './data.js';
 import MainImg from './mainImg.js';
 
 function App() {
-  
-  let [title,setTitle] = useState(['Portfolio','나이수TV','나누미크루','Blog']);
-  let [like,setLike] = useState([0,0,0,0]);
-  let [modal,setModal] = useState(false);
-  let [detailNum,setDetailNum] = useState(0);
-  let [input, setInput] = useState('');
-
-  function saveTitle() {
-    // alert("save");
-    let tempArray = new Array();
-    tempArray = [...title];
-    tempArray.unshift(input);
-    setTitle(tempArray);
-  }
-
-  function clickTitle(obj){
-
-    if(modal===false){
-      setDetailNum(obj);
-      setModal(true);
-    }else if(modal===true && detailNum===obj){
-      setModal(false);
-    }else{
-      setDetailNum(obj);
-    }
-  }
-
-  function clickLike(obj){
-    let likeArray = new Array();
-    likeArray = [...like];
-    likeArray[obj] = likeArray[obj]+1;
-    setLike(likeArray);
-  }
-
-  function Modal(props){
-    return(
-      <div className="container mx-auto mt-8 bg-red-50 p-8">
-      <div className="flex items-center justify-evenly border-b border-gray-500">
-        <p className="absolute m-4 text-lg font-medium w-full">{props.title[detailNum]}</p>
-        <p className="m-4 text-sm font-light w-full text-right">발행일</p>
-      </div>
-      <div className="mt-6">
-        <p className="m-4 text-sm font-light w-full">내용</p>
-      </div>
-    </div>
-    )
-  }
-
   return (
     <div className="App pt-28">
       <div className="container mx-auto flex-col flex text-left mt-3">

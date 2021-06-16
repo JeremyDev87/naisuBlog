@@ -18,7 +18,7 @@ const NanumiCrewDiv = () => {
             </div>
             <div className="w-full mt-5 py-5 font-bold flex justify-evenly">
                 <Link to="/nanumicrew/join"><span className="border-b border-white pb-2 hover:border-gray-400">크루 가입 신청</span></Link>
-                <Link to="/nanumicrew/nanum"><span className="border-b border-white pb-2 hover:border-gray-400">나누미 신청</span></Link>
+                <Link to="/nanumicrew/nanum"><span className="border-b border-white pb-2 hover:border-gray-400">나눔 신청</span></Link>
                 <Link to="/nanumicrew/qna"><span className="border-b border-white pb-2 hover:border-gray-400">크루 관련 문의</span></Link>
             </div>
 

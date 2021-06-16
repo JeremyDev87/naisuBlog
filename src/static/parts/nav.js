@@ -2,6 +2,13 @@ import { Link } from 'react-router-dom';
 import JWCI from '../img/JW_CI.png';
 
 const TopBar =()=>{
+
+    const mobileNav = () => {
+        return (
+            <div></div>
+        )
+    }
+
     return (
         <div className="w-full flex justify-between items-center shadow-md fixed bg-white">
             <div className="ml-4 text-xl w-1/5">
@@ -9,7 +16,7 @@ const TopBar =()=>{
                     <span className="font-bold text-gray-600 flex items-center">
                         {/* <i className="fab fa-js-square mr-2 fa-lg"></i> */}
                         
-                        <img src={JWCI} class="w-5 mr-2" />
+                        <img src={JWCI} className="w-5 mr-2" />
                         Jeremy Winchester
                     </span>
                 </Link>
