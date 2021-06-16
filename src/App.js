@@ -5,7 +5,7 @@ import MainImg from './mainImg.js';
 function App() {
   return (
     <div className="App pt-28">
-      <div className="container mx-auto flex-col flex text-left mt-3">
+      <div className="container mx-auto flex-col flex text-left mt-3 font-sans">
         <MainImg/>
         <div className="flex-col mt-3">
           <span className="font-bold text-3xl text-gray-400 hover:text-gray-800">Welcome to Jeremy Winchester's Home</span>

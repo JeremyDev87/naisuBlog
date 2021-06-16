@@ -5,7 +5,7 @@ const NanumiCrewDiv = () => {
         <div className="h-full static container mx-auto text-gray-600 text-center">
             <div className="w-full md:pt-40 pt-20">
                 <div className="ml-3 text-4xl font-bold">
-                    <span className="text-gray-800">나누미크루</span>
+                    <span className="text-gray-500 text-4xl">나누미크루</span>
                 </div>
                 <div className="ml-3 mt-5">
                     <p>
