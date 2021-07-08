@@ -2,12 +2,14 @@ import React,{ useState } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
 import './index.css';
+import './static/css/styles.css';
 import App from './App';
 import TopBar from './static/parts/nav.js';
 import reportWebVitals from './reportWebVitals';
 import Footer from './static/parts/footer.js';
 import IntroDiv from './intro';
 import PortfolioDiv from './portfolio';
+import ShopDiv from './shop';
 import NaisuTVDiv from './naisuTV';
 import NanumiCrewDiv from './nanumicrew';
 import NanumiSimpleDiv from './nanumiParts/nanumiSimple';
@@ -26,31 +28,34 @@ ReactDOM.render(
       <Route exact path="/naisuBlog">
         <App />
       </Route>
-      <Route exact path="/intro">
+      <Route path="/naisuBlog/intro">
         <IntroDiv/>
       </Route>
-      <Route exact path="/portfolio">
+      <Route path="/naisuBlog/portfolio">
         <PortfolioDiv/>
       </Route>
-      <Route exact path="/naisuTV">
+      <Route path="/naisuBlog/shop">
+        <ShopDiv/>
+      </Route>
+      <Route path="/naisuBlog/naisuTV">
         <NaisuTVDiv/>
       </Route>
-      <Route exact path="/nanumicrew">
+      <Route exact path="/naisuBlog/nanumicrew">
         <NanumiCrewDiv/>
       </Route>
-      <Route exact path="/nanumicrew/join">
+      <Route path="/naisuBlog/nanumicrew/join">
         <NanumiSimpleDiv/>
         <NanumiJoin/>
       </Route>
-      <Route exact path="/nanumicrew/nanum">
+      <Route path="/naisuBlog/nanumicrew/nanum">
         <NanumiSimpleDiv/>
         <NanumiNanum/>
       </Route>
-      <Route exact path="/nanumicrew/qna">
+      <Route path="/naisuBlog/nanumicrew/qna">
         <NanumiSimpleDiv/>
         <NanumiQna/>
       </Route>
-      <Route exact path="/blog">
+      <Route path="/naisuBlog/blog">
         <BlogDiv/>
       </Route>
       <Footer />

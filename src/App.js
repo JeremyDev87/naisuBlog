@@ -1,5 +1,4 @@
 import React from 'react';
-import './static/css/styles.css'
 import MainImg from './mainImg.js';
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
               아들이자 남편이고 아빠이며<br/>
               Web시스템 개발자이며<br/>
               육아,개발,리뷰,일상을 담는 유투버이며<br/>
-              서울 이천으로 장거리 출퇴근하는 직장인이며<br/>
+              서울 이천으로 장거리 출퇴근하는 직장인인<br/>
               Jeremy Winchester입니다.
             </p>
             <p className="mx-3 p-5 border-r w-1/3 h-full  border-gray-200 text-gray-600 hover:text-black text-center">

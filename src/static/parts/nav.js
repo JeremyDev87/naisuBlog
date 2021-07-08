@@ -17,7 +17,7 @@ const TopBar =()=>{
     const CIDiv = () => {
         return (
             <div className="ml-4 text-xl w-1/5 block">
-            <Link to="/">
+            <Link to="/naisuBlog">
                 <span className="font-bold text-gray-600 flex items-center">
                     <img src={JWCI} className="w-5 mr-2" />
                     Jeremy Winchester
@@ -33,12 +33,13 @@ const TopBar =()=>{
             <div className="w-full flex justify-between items-center shadow-md fixed bg-white">
                 <CIDiv className="hidden md:block"/>
                 <div className="mr-4  text-sm lg:text-xl text-gray-500 w-4/5 md:block hidden">
-                    <ul className="flex item-center justify-evenly">
-                        <li className="navLink"><Link to="/intro">Intro</Link></li>
-                        <li className="navLink"><Link to="/portfolio">Portfolio</Link></li>
-                        <li className="navLink"><Link to="/naisuTV">나이수TV</Link></li>
-                        <li className="navLink"><Link to="/nanumicrew">나누미크루</Link></li>
-                        <li className="navLink"><Link to="/blog">Blog</Link></li>
+                    <ul className="flex item-center justify-evenly text-center">
+                        <li className="navLink"><Link to="/naisuBlog/intro">Intro</Link></li>
+                        <li className="navLink"><Link to="/naisuBlog/portfolio">Portfolio</Link></li>
+                        <li className="navLink"><Link to="/naisuBlog/shop">나이수Mall</Link></li>
+                        <li className="navLink"><Link to="/naisuBlog/naisuTV">나이수TV</Link></li>
+                        <li className="navLink"><Link to="/naisuBlog/nanumicrew">나누미크루</Link></li>
+                        <li className="navLink"><Link to="/naisuBlog/blog">Blog</Link></li>
                     </ul>
                 </div>
                 <div className="block md:hidden">
