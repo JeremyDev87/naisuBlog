@@ -28,7 +28,7 @@ const IntroDiv = () => {
                     <span className="font-bold">Consulting</span>
                     <span className="font-light mb-2">Echo, Marketing, IoT, Kiosk, Infra, Range, Cost</span>
                     <span className="font-bold">Architecture</span>
-                    <span className="font-light">Process, Database, Object</span>
+                    <span className="font-light">Process, Database, Object Modeling</span>
                 </div>
             </div>
             <div className="flex justify-evenly pt-10 text-gray-600">

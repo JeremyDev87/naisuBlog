@@ -24,7 +24,7 @@ function App() {
             <p className="mx-3 p-5 w-1/3 text-gray-600 hover:text-black text-left">
               본 홈페이지는 <br/>
               Jeremy Winchester 단독 자체 개발로<br/>
-              React.js, Tailwind CSS, Node.js, Express로<br/>
+              React.js, Tailwind CSS, Firebase로<br/>
               구축하였습니다.
             </p>
           </div>

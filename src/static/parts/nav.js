@@ -36,9 +36,9 @@ const TopBar =()=>{
                     <ul className="flex item-center justify-evenly text-center">
                         <li className="navLink"><Link to="/naisuBlog/intro">Intro</Link></li>
                         <li className="navLink"><Link to="/naisuBlog/portfolio">Portfolio</Link></li>
-                        <li className="navLink"><Link to="/naisuBlog/shop">나이수Mall</Link></li>
+                        {/* <li className="navLink"><Link to="/naisuBlog/shop">제이스토어</Link></li> */}
                         <li className="navLink"><Link to="/naisuBlog/naisuTV">나이수TV</Link></li>
-                        <li className="navLink"><Link to="/naisuBlog/nanumicrew">나누미크루</Link></li>
+                        {/* <li className="navLink"><Link to="/naisuBlog/nanumicrew">나누미크루</Link></li> */}
                         <li className="navLink"><Link to="/naisuBlog/blog">Blog</Link></li>
                     </ul>
                 </div>

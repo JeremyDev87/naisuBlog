@@ -21,9 +21,9 @@ const MobileNav = (props) => {
                     <Link to="/naisuBlog"><li className="text-lg py-5 px-full mx-auto">Home</li></Link>
                     <Link to="/naisuBlog/intro"><li className="text-lg py-5 px-full mx-auto">Intro</li></Link>
                     <Link to="/naisuBlog/portfolio"><li className="text-lg py-5 px-full mx-auto">Portfolio</li></Link>
-                    <Link to="/naisuBlog/shop"><li className="text-lg py-5 px-full mx-auto">나이수Mall</li></Link>
+                    {/* <Link to="/naisuBlog/shop"><li className="text-lg py-5 px-full mx-auto">제이스토어</li></Link> */}
                     <Link to="/naisuBlog/naisuTV"><li className="text-lg py-5 px-full mx-auto">나이수TV</li></Link>
-                    <Link to="/naisuBlog/nanumicrew"><li className="text-lg py-5 px-full mx-auto">나누미크루</li></Link>
+                    {/* <Link to="/naisuBlog/nanumicrew"><li className="text-lg py-5 px-full mx-auto">나누미크루</li></Link> */}
                     <Link to="/naisuBlog/blog"><li className="text-lg py-5 px-full mx-auto">Blog</li></Link>
                 </ul>
             </div>
